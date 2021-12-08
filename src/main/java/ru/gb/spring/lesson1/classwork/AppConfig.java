@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("ru.gb.spring.lesson1")
+@ComponentScan("ru.gb.spring.lesson1.classwork")
 public class AppConfig {
     @Bean
     public CameraRoll cameraRoll() {
