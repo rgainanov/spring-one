@@ -2,7 +2,6 @@ package ru.gb.spring.lesson1.homework;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.gb.spring.lesson1.homework.AppConfig;
 
 public class MainApp {
     public static void main(String[] args) {

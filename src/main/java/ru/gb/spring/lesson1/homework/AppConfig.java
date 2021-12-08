@@ -14,12 +14,13 @@ public class AppConfig {
 
     @Bean
     public Hospital hospital() {
-        return new Hospital();
+        return new HospitalOne();
     }
 
     @Bean
     public Patient patient(Hospital hospital, Doctor doctor) {
-        Patient patient = new Patient("Ivanov");
+        Patient patient = new PatientImpl();
+        patient.setName("Ivanov");
         patient.setDoctor(doctor);
         patient.setHospital(hospital);
         return patient;
